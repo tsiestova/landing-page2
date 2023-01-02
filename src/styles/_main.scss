@@ -1,0 +1,195 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+
+  @include breakpoint(desktop) {
+    padding: 0 80px;
+  }
+}
+
+.logo-wrap {
+  width: 120px;
+  height: 19px;
+  margin: 0 0 15px;
+
+  @include breakpoint(desktop) {
+    width: 200px;
+    height: 32px;
+
+    img {
+      @include breakpoint(desktop) {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.main-container {
+  .layout {
+    @include breakpoint(desktop) {
+      display: flex;
+    }
+  }
+}
+
+.card__pic {
+  margin-bottom: 58px;
+
+  @include breakpoint(desktop) {
+    width: 53%;
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.card__text-block {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @include breakpoint(desktop) {
+    width: 47%;
+    text-align: left;
+    padding: 40px 56px 0 52px;
+  }
+}
+
+.card__text-block-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+
+  @include breakpoint(desktop) {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 22px;
+  }
+}
+
+.card__text-block-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+
+  @include breakpoint(desktop) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+.btn-register {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #684bb1;
+  background-color: #fff;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  max-width: 200px;
+  margin: auto;
+
+  @include breakpoint(desktop) {
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 28px;
+    padding: 11px 10px 16px 10px;
+  }
+
+  &:hover {
+    @include breakpoint(desktop) {
+      background: #e880e8;
+      box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
+
+.social-media__list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  height: 100%;
+
+  @include breakpoint(desktop) {
+    justify-content: right;
+    text-align: left;
+    align-items: start;
+  }
+}
+
+.social-media__item {
+  a {
+    cursor: pointer;
+
+    &:hover {
+      &:before {
+        @include breakpoint(desktop) {
+          background-color: #ff52c1;
+        }
+      }
+    }
+
+    &:before {
+      content: "";
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: inline-block;
+      background: no-repeat;
+
+      @include breakpoint(desktop) {
+        width: 40px;
+        height: 40px;
+        background-size: contain;
+      }
+    }
+  }
+
+  &.social-media__facebook {
+    a {
+      &:before {
+        background-image: url(./assets/facebook.svg);
+      }
+    }
+  }
+
+  &.social-media__twitter {
+    a {
+      &:before {
+        background-image: url(./assets/twitter.svg);
+      }
+    }
+  }
+
+  &.social-media__insta {
+    a {
+      &:before {
+        background-image: url(./assets/insta.svg);
+      }
+    }
+  }
+}
+
+.footer {
+  @include breakpoint(desktop) {
+    padding: 19px 92px 0 0;
+  }
+}
