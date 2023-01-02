@@ -1,0 +1,18 @@
+body {
+  background: #684bb1 url(./assets/bg-mobile.svg) no-repeat top left;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+
+  @include breakpoint(desktop) {
+    grid-template-rows: 170px 1fr 100px;
+    background-image: url(./assets/bg-desktop.svg);
+  }
+}
+
+.layout {
+  padding: 24px 37px 0 37px;
+
+  @include breakpoint(desktop) {
+    padding: 24px 37px 0 73px;
+  }
+}
