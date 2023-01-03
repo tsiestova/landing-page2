@@ -139,14 +139,6 @@
   a {
     cursor: pointer;
 
-    &:hover {
-      &:before {
-        @include breakpoint(desktop) {
-          background-color: #ff52c1;
-        }
-      }
-    }
-
     &:before {
       content: "";
       width: 28px;
@@ -168,6 +160,13 @@
       &:before {
         background-image: url(./assets/facebook.svg);
       }
+
+      &:hover {
+        &:before {
+          background-image: url(./assets/facebook-color.svg);
+          color: white;
+        }
+      }
     }
   }
 
@@ -176,6 +175,13 @@
       &:before {
         background-image: url(./assets/twitter.svg);
       }
+
+      &:hover {
+        &:before {
+          background-image: url(./assets/twitter-color.svg);
+          color: white;
+        }
+      }
     }
   }
 
@@ -183,6 +189,12 @@
     a {
       &:before {
         background-image: url(./assets/insta.svg);
+      }
+      &:hover {
+        &:before {
+          background-image: url(./assets/insta-color.svg);
+          color: white;
+        }
       }
     }
   }

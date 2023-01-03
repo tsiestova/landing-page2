@@ -1,11 +1,11 @@
 <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M27.7414 14C27.7414 21.5233 21.8325 27.6008 14.5694 27.6008C7.30635 27.6008 1.39744 21.5233 1.39744 14C1.39744 6.47666 7.30635 0.399151 14.5694 0.399151C21.8325 0.399151 27.7414 6.47666 27.7414 14Z" stroke="white" stroke-width="0.798301"/>
-<rect x="8.18311" y="7.41174" width="12.7728" height="13.1765" fill="url(#pattern0)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14.5694 27.2017C21.6004 27.2017 27.3422 21.3147 27.3422 14C27.3422 6.68531 21.6004 0.798301 14.5694 0.798301C7.53841 0.798301 1.79659 6.68531 1.79659 14C1.79659 21.3147 7.53841 27.2017 14.5694 27.2017ZM14.5694 28C22.0645 28 28.1405 21.732 28.1405 14C28.1405 6.26801 22.0645 0 14.5694 0C7.07429 0 0.998291 6.26801 0.998291 14C0.998291 21.732 7.07429 28 14.5694 28Z" fill="white"/>
+<path d="M8.18311 7.41174H20.9559V20.5882H8.18311V7.41174Z" fill="url(#pattern0)"/>
 <mask id="mask0_0_17" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="7" width="13" height="14">
-<rect x="8.18311" y="7.41174" width="12.7728" height="13.1765" fill="url(#pattern1)"/>
+<path d="M8.18311 7.41174H20.9559V20.5882H8.18311V7.41174Z" fill="url(#pattern1)"/>
 </mask>
 <g mask="url(#mask0_0_17)">
-<rect x="8.18311" y="7.41174" width="12.7728" height="13.1765" fill="white"/>
+<path d="M8.18311 7.41174H20.9559V20.5882H8.18311V7.41174Z" fill="white"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">

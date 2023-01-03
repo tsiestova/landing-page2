@@ -1,11 +1,11 @@
 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M26.7431 14C26.7431 21.5233 20.8342 27.6008 13.5711 27.6008C6.30806 27.6008 0.399151 21.5233 0.399151 14C0.399151 6.47666 6.30806 0.399151 13.5711 0.399151C20.8342 0.399151 26.7431 6.47666 26.7431 14Z" stroke="white" stroke-width="0.798301"/>
-<rect x="10.8569" y="7.70001" width="6.107" height="13.3" fill="url(#pattern0)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5711 27.2017C20.6021 27.2017 26.3439 21.3147 26.3439 14C26.3439 6.68531 20.6021 0.798301 13.5711 0.798301C6.54012 0.798301 0.798301 6.68531 0.798301 14C0.798301 21.3147 6.54012 27.2017 13.5711 27.2017ZM13.5711 28C21.0662 28 27.1422 21.732 27.1422 14C27.1422 6.26801 21.0662 0 13.5711 0C6.076 0 0 6.26801 0 14C0 21.732 6.076 28 13.5711 28Z" fill="white"/>
+<path d="M10.8569 7.70001H16.9639V21H10.8569V7.70001Z" fill="url(#pattern0)"/>
 <mask id="mask0_0_29" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="7" width="7" height="14">
-<rect x="10.8569" y="7.70001" width="6.107" height="13.3" fill="url(#pattern1)"/>
+<path d="M10.8569 7.70001H16.9639V21H10.8569V7.70001Z" fill="url(#pattern1)"/>
 </mask>
 <g mask="url(#mask0_0_29)">
-<rect x="10.8569" y="7.70001" width="6.107" height="13.3" fill="white"/>
+<path d="M10.8569 7.70001H16.9639V21H10.8569V7.70001Z" fill="white"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
